@@ -1,1 +1,42 @@
+h1{
+    color: black ;
+    background-color: rgb(227, 196, 243);
+    text-align: center; 
+    padding-top: 20px ;
+    width: 600px ;
+    height: 100px ;
+    margin:auto;
+    margin-top: 25px;
+}
+
+.bgcolor{
+    background-color: rgb(139, 127, 127);
+}
+
+.body{
+    background-color:rgb(227, 196, 243) ;
+    width: 600px; 
+    height: 600px;
+    margin:auto;
+
+
+}
+
+
+div.grid>:hover{
+   background-color: white !important ;
+    
+
+}
+
+.grid{
+    width:500px;
+    height: 500px;
+    margin: auto; 
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(10, 50px) ;
+    padding:10px ;  
+    
+}
 
