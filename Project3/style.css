@@ -18,15 +18,11 @@ h1{
     width: 600px; 
     height: 600px;
     margin:auto;
-
-
 }
 
 
 div.grid>:hover{
    background-color: white !important ;
-    
-
 }
 
 .grid{

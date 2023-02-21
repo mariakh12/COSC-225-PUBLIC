@@ -1,7 +1,6 @@
 
 function drawGrid()
 {   
-    let block = [];
     let counter = 1 ;
     const grid = document.querySelector(".grid") ;
     for(let i = 1; i<= 10; i++)
