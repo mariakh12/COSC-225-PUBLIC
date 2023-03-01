@@ -1,1 +1,40 @@
+.bgcolor{
+    background-color: rgb(78, 192, 110);
+}
 
+#main{
+    background-color:rgb(67, 84, 110);
+    text-align: center; 
+    width: 700px ;
+    height: 700px ; 
+    margin:auto;
+}
+
+h1{
+    color: white ;
+    background-color:rgb(78, 192, 110);
+    text-align: center; 
+    width: 700px ;
+    height: 50px ; 
+    margin:auto;
+    margin-top: 25px; 
+}
+
+
+.row{
+    height: 0.5px; 
+}
+ 
+.cell{
+    float: left; 
+    width: 5px;
+    height:5px; 
+}
+
+.one{
+    background-color: #8a307f ;
+}
+
+.zero{
+    background-color: #79a7d3 ;
+}

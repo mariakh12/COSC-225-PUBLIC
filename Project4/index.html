@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+    <html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Cellular Automaton</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="cellular-automata.js"></script>
+        <script>
+            window.onload = () =>
+            { 
+              const rule= 215; 
+              const width=140; 
+              const height=145; 
+              drawCA(rule,width,height);
+            }
+        </script>
+    </head>
+    <body class="bgcolor">
+        <div id="main"></div>
+    </body>
+    </html>
