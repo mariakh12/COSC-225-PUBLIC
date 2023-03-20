@@ -4,9 +4,10 @@ h1 {
     line-height: 100px;
     width: 800px;
     background-color: white;
-    position:fixed ;
-    left: 320px; 
-    top:0; 
+    position:fixed ; 
+    top:50%; 
+    left: 50% ;
+    transform: translate(-50%, -420%)
 }
 
 .initialblock{
@@ -40,8 +41,9 @@ h1 {
     position:fixed;
     display: flex;
     gap: 100px ;
-    top: 100px;
-    left: 320px;
+    top:50%; 
+    left: 50% ;
+    transform: translate(-50%, -1220%) ;
 }
 
 .navabout a {
